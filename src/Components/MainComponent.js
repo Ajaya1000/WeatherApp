@@ -68,10 +68,10 @@ export default class Main extends Component {
                     <div className="main">
                         <div className="container-fluid">
                             <div className="row">
-                                <div className="col xs-5 title-container">
+                                <div className="col-12 col-md-5 title-container">
                                     <Titles />
                                 </div>
-                                <div className="col xs-7 form-container">
+                                <div className="col-12 col-md-7 form-container">
                                     <FromComp getWeather={this.getWeather} />
                                     <Weather
                                         temperature={this.state.temperature}
